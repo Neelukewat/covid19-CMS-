@@ -1,0 +1,409 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B6DAAFEF-0C9F-4A19-8E99-091818131F85}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Covid19_management_system</RootNamespace>
+    <AssemblyName>Covid19 management system</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44339</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="TimePicker">
+      <HintPath>C:\Users\pooja\Downloads\TimePicker\Bin\TimePicker.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="addVaccine.aspx" />
+    <Content Include="addVaccineCenter.aspx" />
+    <Content Include="adminhomepage.aspx" />
+    <Content Include="allotVaccine.aspx" />
+    <Content Include="bookAppointement.aspx" />
+    <Content Include="bookappointment2.aspx" />
+    <Content Include="centerSetting.aspx" />
+    <Content Include="checkSymptom.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="css\StyleSheet2.css" />
+    <Content Include="css\StyleSheet3.css" />
+    <Content Include="css\StyleSheet4.css" />
+    <Content Include="css\StyleSheet5.css" />
+    <Content Include="css\StyleSheet6.css" />
+    <Content Include="css\StyleSheet7.css" />
+    <Content Include="css\StyleSheet8.css" />
+    <Content Include="css\StyleSheet9.css" />
+    <Content Include="Find_center.aspx" />
+    <Content Include="fontawsome\cv.jpeg" />
+    <Content Include="getvaccinationh.aspx" />
+    <Content Include="homepage.aspx" />
+    <Content Include="hospitalhomepage.aspx" />
+    <Content Include="img\ab0ve 18 vaccien.jpg" />
+    <Content Include="img\allotvaccine.png" />
+    <Content Include="img\avaid.jpeg" />
+    <Content Include="img\background.jpg" />
+    <Content Include="img\BG.jpg" />
+    <Content Include="img\book_Appointment.jpg" />
+    <Content Include="img\calendar.jpg" />
+    <Content Include="img\certificate.jpg" />
+    <Content Include="img\clinical-questions-in-covid-management-blog-image-780.jpg" />
+    <Content Include="img\cv.jpeg" />
+    <Content Include="img\doctors.jpg" />
+    <Content Include="img\hm.jpg" />
+    <Content Include="img\HOSPITALVACCINE.jpg" />
+    <Content Include="img\images %281%29.jpg" />
+    <Content Include="img\images.png" />
+    <Content Include="img\IP.jpg" />
+    <Content Include="img\home-bg.jpg" />
+    <Content Include="img\book appointment.jpg" />
+    <Content Include="img\covid-vaccine.png" />
+    <Content Include="img\covid10.jpg" />
+    <Content Include="img\kovid.jpg" />
+    <Content Include="img\list.png" />
+    <Content Include="img\lock-icon.png" />
+    <Content Include="img\login-screen.png" />
+    <Content Include="img\mast.jpeg" />
+    <Content Include="img\OIP %281%29.jpg" />
+    <Content Include="img\OIP %282%29.jpg" />
+    <Content Include="img\OIP %283%29.jpg" />
+    <Content Include="img\Pre.jpeg" />
+    <Content Include="img\pre.jpg" />
+    <Content Include="img\SARS.gif" />
+    <Content Include="img\satmayejayte.jpg" />
+    <Content Include="img\search.jpg" />
+    <Content Include="img\showcenter.jpg" />
+    <Content Include="img\statics.png" />
+    <Content Include="img\sys.jpeg" />
+    <Content Include="img\SYsmptoms.jpeg" />
+    <Content Include="img\user-icon.png" />
+    <Content Include="img\user.png" />
+    <Content Include="img\userlist.jpg" />
+    <Content Include="img\v1.png" />
+    <Content Include="img\vacccinesetting.jpg" />
+    <Content Include="img\vaccine.png" />
+    <Content Include="img\WASH.jpeg" />
+    <Content Include="login.aspx" />
+    <Content Include="print_Certificate.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\home.js" />
+    <Content Include="Statistics.aspx" />
+    <Content Include="userlist.aspx" />
+    <Content Include="userpanel.aspx" />
+    <Content Include="usersignup.aspx" />
+    <Content Include="user_certificate.aspx" />
+    <Content Include="vaccinationSetting.aspx" />
+    <Content Include="img\vcenter.jpg" />
+    <Content Include="Vacine_List.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addVaccine.aspx.cs">
+      <DependentUpon>addVaccine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addVaccine.aspx.designer.cs">
+      <DependentUpon>addVaccine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addVaccineCenter.aspx.cs">
+      <DependentUpon>addVaccineCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addVaccineCenter.aspx.designer.cs">
+      <DependentUpon>addVaccineCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminhomepage.aspx.cs">
+      <DependentUpon>adminhomepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminhomepage.aspx.designer.cs">
+      <DependentUpon>adminhomepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="allotVaccine.aspx.cs">
+      <DependentUpon>allotVaccine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="allotVaccine.aspx.designer.cs">
+      <DependentUpon>allotVaccine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bookAppointement.aspx.cs">
+      <DependentUpon>bookAppointement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookAppointement.aspx.designer.cs">
+      <DependentUpon>bookAppointement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bookappointment2.aspx.cs">
+      <DependentUpon>bookappointment2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookappointment2.aspx.designer.cs">
+      <DependentUpon>bookappointment2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="centerSetting.aspx.cs">
+      <DependentUpon>centerSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="centerSetting.aspx.designer.cs">
+      <DependentUpon>centerSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="checkSymptom.aspx.cs">
+      <DependentUpon>checkSymptom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="checkSymptom.aspx.designer.cs">
+      <DependentUpon>checkSymptom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Find_center.aspx.cs">
+      <DependentUpon>Find_center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Find_center.aspx.designer.cs">
+      <DependentUpon>Find_center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getvaccinationh.aspx.cs">
+      <DependentUpon>getvaccinationh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getvaccinationh.aspx.designer.cs">
+      <DependentUpon>getvaccinationh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.aspx.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homepage.aspx.designer.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hospitalhomepage.aspx.cs">
+      <DependentUpon>hospitalhomepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hospitalhomepage.aspx.designer.cs">
+      <DependentUpon>hospitalhomepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="numofuser.cs" />
+    <Compile Include="print_Certificate.aspx.cs">
+      <DependentUpon>print_Certificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_Certificate.aspx.designer.cs">
+      <DependentUpon>print_Certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics.aspx.cs">
+      <DependentUpon>Statistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistics.aspx.designer.cs">
+      <DependentUpon>Statistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userlist.aspx.cs">
+      <DependentUpon>userlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userlist.aspx.designer.cs">
+      <DependentUpon>userlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userpanel.aspx.cs">
+      <DependentUpon>userpanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userpanel.aspx.designer.cs">
+      <DependentUpon>userpanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usersignup.aspx.cs">
+      <DependentUpon>usersignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usersignup.aspx.designer.cs">
+      <DependentUpon>usersignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user_certificate.aspx.cs">
+      <DependentUpon>user_certificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_certificate.aspx.designer.cs">
+      <DependentUpon>user_certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vaccinationSetting.aspx.cs">
+      <DependentUpon>vaccinationSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vaccinationSetting.aspx.designer.cs">
+      <DependentUpon>vaccinationSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vacine_List.aspx.cs">
+      <DependentUpon>Vacine_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vacine_List.aspx.designer.cs">
+      <DependentUpon>Vacine_List.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </Content>
+    <Content Include="css\StyleSheet1.scss" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bootstrap\js\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49910</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44339/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

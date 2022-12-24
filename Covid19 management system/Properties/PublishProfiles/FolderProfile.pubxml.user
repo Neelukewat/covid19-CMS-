@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\Neelu\CMS_PUb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".editorconfig">
+      <publishTime>03/23/2022 22:08:31</publishTime>
+    </File>
+    <File Include="addVaccine.aspx">
+      <publishTime>03/30/2022 09:29:32</publishTime>
+    </File>
+    <File Include="addVaccineCenter.aspx">
+      <publishTime>03/24/2022 11:03:29</publishTime>
+    </File>
+    <File Include="adminhomepage.aspx">
+      <publishTime>03/30/2022 09:29:32</publishTime>
+    </File>
+    <File Include="allotVaccine.aspx">
+      <publishTime>03/30/2022 08:43:05</publishTime>
+    </File>
+    <File Include="bin/Covid19 management system.dll">
+      <publishTime>03/31/2022 16:33:21</publishTime>
+    </File>
+    <File Include="bin/Covid19 management system.pdb">
+      <publishTime>03/31/2022 16:33:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>07/09/2020 03:22:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/19/2020 07:21:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/19/2020 07:21:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/19/2020 07:10:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/19/2020 07:22:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/19/2020 07:22:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/19/2020 07:10:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/19/2020 07:17:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/19/2020 07:21:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/19/2020 07:21:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/19/2020 07:19:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/19/2020 07:19:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/19/2020 07:20:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/19/2020 07:10:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 07:06:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 07:06:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/19/2020 07:10:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/19/2020 07:10:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Buffers.dll">
+      <publishTime>07/19/2017 22:31:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 01:59:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Memory.dll">
+      <publishTime>04/18/2019 04:54:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Numerics.Vectors.dll">
+      <publishTime>07/19/2017 22:31:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 01:59:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>11/15/2019 22:07:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/30/2018 05:09:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>06/19/2019 00:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/19/2020 07:20:06</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/19/2020 07:20:06</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/19/2020 07:10:26</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/19/2020 07:22:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/19/2020 07:22:02</publishTime>
+    </File>
+    <File Include="bin/TimePicker.dll">
+      <publishTime>03/15/2022 13:32:03</publishTime>
+    </File>
+    <File Include="bookAppointement.aspx">
+      <publishTime>03/26/2022 16:30:39</publishTime>
+    </File>
+    <File Include="bookappointment2.aspx">
+      <publishTime>03/26/2022 17:37:14</publishTime>
+    </File>
+    <File Include="centerSetting.aspx">
+      <publishTime>03/23/2022 09:33:32</publishTime>
+    </File>
+    <File Include="checkSymptom.aspx">
+      <publishTime>03/16/2022 10:05:39</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>03/04/2022 22:40:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>03/04/2022 22:40:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>03/04/2022 22:40:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>03/04/2022 22:40:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css">
+      <publishTime>03/04/2022 22:40:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css.map">
+      <publishTime>03/04/2022 22:40:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css">
+      <publishTime>03/04/2022 22:40:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css.map">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css.map">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css">
+      <publishTime>03/04/2022 22:39:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css.map">
+      <publishTime>03/04/2022 22:39:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css">
+      <publishTime>03/04/2022 22:39:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css.map">
+      <publishTime>03/04/2022 22:39:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css">
+      <publishTime>03/04/2022 22:39:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css.map">
+      <publishTime>03/04/2022 22:39:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css">
+      <publishTime>03/04/2022 22:39:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>03/04/2022 22:39:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/04/2022 22:39:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>03/04/2022 22:39:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/04/2022 22:39:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>03/04/2022 22:39:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css">
+      <publishTime>03/04/2022 22:39:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css.map">
+      <publishTime>03/04/2022 22:39:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css">
+      <publishTime>03/04/2022 22:39:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css.map">
+      <publishTime>03/04/2022 22:39:56</publishTime>
+    </File>
+    <File Include="css/StyleSheet1.css">
+      <publishTime>03/05/2022 17:57:56</publishTime>
+    </File>
+    <File Include="css/StyleSheet1.scss">
+      <publishTime>03/28/2022 21:24:53</publishTime>
+    </File>
+    <File Include="css/StyleSheet2.css">
+      <publishTime>03/06/2022 16:17:12</publishTime>
+    </File>
+    <File Include="css/StyleSheet3.css">
+      <publishTime>03/04/2022 16:48:45</publishTime>
+    </File>
+    <File Include="css/StyleSheet4.css">
+      <publishTime>03/06/2022 14:36:56</publishTime>
+    </File>
+    <File Include="css/StyleSheet5.css">
+      <publishTime>03/06/2022 15:01:58</publishTime>
+    </File>
+    <File Include="css/StyleSheet6.css">
+      <publishTime>03/06/2022 16:33:36</publishTime>
+    </File>
+    <File Include="css/StyleSheet7.css">
+      <publishTime>03/08/2022 20:07:13</publishTime>
+    </File>
+    <File Include="css/StyleSheet8.css">
+      <publishTime>03/30/2022 17:23:48</publishTime>
+    </File>
+    <File Include="css/StyleSheet9.css">
+      <publishTime>03/20/2022 20:22:03</publishTime>
+    </File>
+    <File Include="dark-mode-switch.js">
+      <publishTime>03/28/2022 22:59:16</publishTime>
+    </File>
+    <File Include="dark-mode.css">
+      <publishTime>03/28/2022 22:59:19</publishTime>
+    </File>
+    <File Include="Find_center.aspx">
+      <publishTime>03/26/2022 17:36:35</publishTime>
+    </File>
+    <File Include="fontawsome/cv.jpeg">
+      <publishTime>02/12/2022 20:43:43</publishTime>
+    </File>
+    <File Include="getvaccinationh.aspx">
+      <publishTime>03/28/2022 15:18:13</publishTime>
+    </File>
+    <File Include="homepage.aspx">
+      <publishTime>03/30/2022 19:22:22</publishTime>
+    </File>
+    <File Include="hospitalhomepage.aspx">
+      <publishTime>03/24/2022 10:27:38</publishTime>
+    </File>
+    <File Include="img/ab0ve 18 vaccien.jpg">
+      <publishTime>02/11/2022 22:56:17</publishTime>
+    </File>
+    <File Include="img/allotvaccine.png">
+      <publishTime>03/05/2022 09:20:48</publishTime>
+    </File>
+    <File Include="img/avaid.jpeg">
+      <publishTime>03/10/2022 14:20:24</publishTime>
+    </File>
+    <File Include="img/background.jpg">
+      <publishTime>03/30/2022 17:21:47</publishTime>
+    </File>
+    <File Include="img/BG.jpg">
+      <publishTime>03/09/2022 23:36:00</publishTime>
+    </File>
+    <File Include="img/book appointment.jpg">
+      <publishTime>02/11/2022 22:56:17</publishTime>
+    </File>
+    <File Include="img/book_Appointment.jpg">
+      <publishTime>03/03/2022 01:07:51</publishTime>
+    </File>
+    <File Include="img/calendar.jpg">
+      <publishTime>03/04/2022 14:56:47</publishTime>
+    </File>
+    <File Include="img/certificate.jpg">
+      <publishTime>03/15/2022 12:06:00</publishTime>
+    </File>
+    <File Include="img/clinical-questions-in-covid-management-blog-image-780.jpg">
+      <publishTime>03/06/2022 14:57:05</publishTime>
+    </File>
+    <File Include="img/covid-vaccine.png">
+      <publishTime>02/11/2022 22:56:17</publishTime>
+    </File>
+    <File Include="img/covid10.jpg">
+      <publishTime>02/11/2022 22:56:17</publishTime>
+    </File>
+    <File Include="img/cv.jpeg">
+      <publishTime>02/12/2022 20:44:21</publishTime>
+    </File>
+    <File Include="img/doctors.jpg">
+      <publishTime>03/16/2022 21:45:02</publishTime>
+    </File>
+    <File Include="img/hm.jpg">
+      <publishTime>03/20/2022 16:14:39</publishTime>
+    </File>
+    <File Include="img/home-bg.jpg">
+      <publishTime>02/12/2022 18:33:07</publishTime>
+    </File>
+    <File Include="img/HOSPITALVACCINE.jpg">
+      <publishTime>03/15/2022 13:12:10</publishTime>
+    </File>
+    <File Include="img/images %281%29.jpg">
+      <publishTime>03/06/2022 14:45:33</publishTime>
+    </File>
+    <File Include="img/IP.jpg">
+      <publishTime>02/12/2022 19:21:29</publishTime>
+    </File>
+    <File Include="img/kovid.jpg">
+      <publishTime>03/05/2022 15:52:03</publishTime>
+    </File>
+    <File Include="img/list.png">
+      <publishTime>03/15/2022 12:08:58</publishTime>
+    </File>
+    <File Include="img/lock-icon.png">
+      <publishTime>03/02/2022 14:29:37</publishTime>
+    </File>
+    <File Include="img/login-screen.png">
+      <publishTime>03/02/2022 14:46:49</publishTime>
+    </File>
+    <File Include="img/mast.jpeg">
+      <publishTime>03/10/2022 14:20:32</publishTime>
+    </File>
+    <File Include="img/OIP %281%29.jpg">
+      <publishTime>03/05/2022 09:21:03</publishTime>
+    </File>
+    <File Include="img/OIP %282%29.jpg">
+      <publishTime>03/05/2022 09:21:03</publishTime>
+    </File>
+    <File Include="img/OIP %283%29.jpg">
+      <publishTime>03/06/2022 15:34:25</publishTime>
+    </File>
+    <File Include="img/satmayejayte.jpg">
+      <publishTime>03/24/2022 16:16:15</publishTime>
+    </File>
+    <File Include="img/search.jpg">
+      <publishTime>03/20/2022 20:10:02</publishTime>
+    </File>
+    <File Include="img/showcenter.jpg">
+      <publishTime>03/06/2022 17:51:07</publishTime>
+    </File>
+    <File Include="img/statics.png">
+      <publishTime>03/16/2022 10:59:06</publishTime>
+    </File>
+    <File Include="img/sys.jpeg">
+      <publishTime>02/12/2022 20:38:05</publishTime>
+    </File>
+    <File Include="img/SYsmptoms.jpeg">
+      <publishTime>02/11/2022 22:56:17</publishTime>
+    </File>
+    <File Include="img/user-icon.png">
+      <publishTime>03/02/2022 14:30:15</publishTime>
+    </File>
+    <File Include="img/user.png">
+      <publishTime>03/02/2022 16:09:53</publishTime>
+    </File>
+    <File Include="img/userlist.jpg">
+      <publishTime>03/05/2022 09:21:03</publishTime>
+    </File>
+    <File Include="img/v1.png">
+      <publishTime>02/12/2022 20:48:47</publishTime>
+    </File>
+    <File Include="img/vacccinesetting.jpg">
+      <publishTime>03/05/2022 09:21:03</publishTime>
+    </File>
+    <File Include="img/vaccine.png">
+      <publishTime>02/11/2022 22:56:17</publishTime>
+    </File>
+    <File Include="img/vcenter.jpg">
+      <publishTime>03/05/2022 09:44:44</publishTime>
+    </File>
+    <File Include="img/WASH.jpeg">
+      <publishTime>03/11/2022 11:52:29</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>03/30/2022 09:29:32</publishTime>
+    </File>
+    <File Include="print_Certificate.aspx">
+      <publishTime>03/30/2022 09:36:28</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>03/04/2022 22:39:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>03/04/2022 22:39:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>03/04/2022 22:39:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>03/04/2022 22:39:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js">
+      <publishTime>03/04/2022 22:39:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js.map">
+      <publishTime>03/04/2022 22:39:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js">
+      <publishTime>03/04/2022 22:39:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js.map">
+      <publishTime>03/04/2022 22:39:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/04/2022 22:39:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>03/04/2022 22:39:54</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/04/2022 22:39:54</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>03/04/2022 22:39:54</publishTime>
+    </File>
+    <File Include="Scripts/home.js">
+      <publishTime>03/26/2022 17:37:37</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>03/30/2022 08:35:23</publishTime>
+    </File>
+    <File Include="Statistics.aspx">
+      <publishTime>03/16/2022 21:48:03</publishTime>
+    </File>
+    <File Include="userlist.aspx">
+      <publishTime>03/19/2022 15:41:46</publishTime>
+    </File>
+    <File Include="userpanel.aspx">
+      <publishTime>03/31/2022 14:42:28</publishTime>
+    </File>
+    <File Include="usersignup.aspx">
+      <publishTime>03/24/2022 13:07:10</publishTime>
+    </File>
+    <File Include="user_certificate.aspx">
+      <publishTime>03/24/2022 10:02:57</publishTime>
+    </File>
+    <File Include="vaccinationSetting.aspx">
+      <publishTime>03/23/2022 09:48:01</publishTime>
+    </File>
+    <File Include="Vacine_List.aspx">
+      <publishTime>03/23/2022 09:44:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/31/2022 16:33:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

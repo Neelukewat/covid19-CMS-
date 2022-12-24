@@ -1,0 +1,2 @@
+F:\Neelu\CMS\Covid19 management system\Covid19 management system\obj\Debug\Covid19 management system.csproj.CoreCompileInputs.cache
+F:\Neelu\CMS\Covid19 management system\Covid19 management system\obj\Debug\Covid19 management system.csproj.AssemblyReference.cache

@@ -1,0 +1,47 @@
+﻿#Zero {
+    width: 100%;
+    height: 75vh;
+    background-image: url('../img/BG.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+    #Zero .container {
+        padding-top: 80px;
+    }
+
+    #Zero:before {
+        content: "";
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #Zero h1 {
+        margin: 0 0 10px 0;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        color: #fff;
+    }
+
+    #Zero h2 {
+        color: #eee;
+        margin-bottom: 40px;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+
+.form-group .btn-form {
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
+    text-decoration: none;
+    color: #000;
+}
